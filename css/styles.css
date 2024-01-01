@@ -51,24 +51,24 @@ a {
   font-weight: 500;
 }
 
+.logo {
+  color: var(--main-text-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .logo-web {
   color: var(--primary-brand-color);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.logo-studio {
-  color: var(--title-text-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -106,7 +106,6 @@ a {
 .button {
   color: var(--sub-text-color);
   background-color: var(--primary-brand-color);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -124,17 +123,17 @@ a {
   background-color: #2e2f42;
 }
 
-.team {
+.section-team {
   background-color: #f4f4fd;
 }
 
 .section-text {
-  color: var(--main-text-color)
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5 /* 150% */
-letter-spacing: 0.32px;
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -142,22 +141,26 @@ letter-spacing: 0.32px;
   color: var(--sub-background-color);
 }
 
-.logo-studio-footer{
+.logo-studio-footer {
   color: var(--sub-background-color);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.166; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.text-footer{
+.text-footer {
   color: var(--sub-background-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5 /* 150% */
-letter-spacing: 0.32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.section-team-list {
+  background-color: #fff;
 }
